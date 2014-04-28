@@ -2,14 +2,17 @@ body {
 	background-color: grey
 }
 
-p { 
+p {     
 	font-family: verdana
 }
 
-ol li { font-family: times
+ol li { 
+	background-color: black;
+	color: aqua;
+	font-family: times
 
 }
 
-ul li { font-family: tahoma ;
+ul li { font-family: Georgia;
 	font-size: 1.1em
 }
