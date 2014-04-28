@@ -1,0 +1,26 @@
+.header {vertical-align: top;
+		 border: solid;
+		 border-color: black; 
+}
+
+.footer {
+		vertical-align: bottom;
+		border: solid;
+		border-color: black;
+}
+
+.sidebar
+{ position: static;
+	vertical-align: center;
+	border-color: blue;
+	border-width: 3px;
+	border-radius: 15;
+
+}
+
+.content_area {
+vertical-align: center;
+border: solid;
+border-color: orange;
+border-radius: 25;
+}
