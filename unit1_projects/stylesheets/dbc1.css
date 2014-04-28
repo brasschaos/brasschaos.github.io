@@ -6,10 +6,10 @@ p {
 	font-family: verdana
 }
 
-ol { font-family: times
+ol li { font-family: times
 
 }
 
-ul { font-family: "Lucida Console" ;
+ul li { font-family: tahoma ;
 	font-size: 1.1em
 }
