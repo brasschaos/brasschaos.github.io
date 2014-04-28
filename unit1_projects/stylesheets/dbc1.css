@@ -1,0 +1,15 @@
+body { 
+	background-color: grey
+}
+
+p { 
+	font-family: verdana
+}
+
+ol { font-family: times
+
+}
+
+ul { font-family: comic;
+	font-size: 1.1em
+}
