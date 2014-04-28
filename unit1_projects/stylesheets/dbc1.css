@@ -7,12 +7,12 @@ p {
 }
 
 ol li { 
-	background-color: black;
-	color: aqua;
 	font-family: times
 
 }
 
 ul li { font-family: Georgia;
+	background-color: black;
+	color: aqua;
 	font-size: 1.1em
 }
