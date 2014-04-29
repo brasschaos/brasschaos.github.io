@@ -1,4 +1,4 @@
-body.header 
+.header 
 {
 		position: absolute;
 		text-align: center;
@@ -10,7 +10,7 @@ body.header
 		border: 2px solid black; 
 }
 
-body.footer 
+.footer 
 {
 		position: absolute;
 		text-align: center;
@@ -23,7 +23,7 @@ body.footer
 		border-radius: 3px ;
 }
 
-body.sidebar
+.sidebar
 {
 	position: absolute;
 	text-align: right;
@@ -36,7 +36,7 @@ body.sidebar
 	border: 2px solid black
 }
 
-body.content_area
+.content_area
 {
 
 	text-align: left;
