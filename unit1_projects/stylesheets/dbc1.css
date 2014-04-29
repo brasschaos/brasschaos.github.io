@@ -7,7 +7,8 @@ p {
 }
 
 ol li { 
-	font-family: times
+	font-family: times;
+	border: 2px solid black ;
 
 }
 
