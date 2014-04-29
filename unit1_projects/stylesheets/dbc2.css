@@ -1,6 +1,6 @@
 .header 
 {
-		position: absolute;
+		position: absolute center;
 		text-align: center;
 		top: 5px;
 		border: solid;
@@ -12,7 +12,7 @@
 
 .footer 
 {
-		position: absolute;
+		position: absolute center;
 		text-align: center;
 		bottom: 5px;
 		left: 20px;
@@ -28,21 +28,18 @@
 	position: absolute;
 	text-align: right;
 	right: 5px;
-	top: 50px;
+	top: 60px;
     vertical-align: right;
-	border-radius: 15;
-	height: 500px;
+	height: 750px;
 	width: 75px;
-	border: 2px solid black
+	border: 2px solid black;
+	border-radius: 4px;
 }
 
 .content_area
 {
-
-	text-align: left;
-	vertical-align: center;
-	border: solid;
-	border-color: orange;
-	border-radius: 25;
-	border: 3px solid black
+	top: 75px;
+	text-align: center;
+	border: 3px solid black;
+	border-radius: 4px;
 }
