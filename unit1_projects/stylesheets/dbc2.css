@@ -1,26 +1,41 @@
-.header {vertical-align: top;
-		 border: solid;
-		 border-color: black; 
-}
-
-.footer {
-		vertical-align: bottom;
+body.header {
+		position: absolute;
+		top: 5px;
 		border: solid;
 		border-color: black;
+		width: 400px;
+		height: 50px;
+		border: 2px solid black; 
 }
 
-.sidebar
-{ position: static;
-	vertical-align: center;
-	border-color: blue;
-	border-width: 3px;
+body.footer {
+		position: absolute;
+		bottom: 5px;
+		left: 20px;
+		right: 20px;
+		height: 50px;
+		width: 400px;
+		border: 2px solid black;
+		border-radius: 3px ;
+}
+
+body.sidebar
+{
+	position: absolute;
+	right: 5px;
+	top: 50px;
+    vertical-align: right;
 	border-radius: 15;
-
+	height: 500px;
+	width: 75px;
+	border: 2px solid black
 }
 
-.content_area {
+body.content_area {
+	text-align: left;
 vertical-align: center;
 border: solid;
 border-color: orange;
 border-radius: 25;
+border: 3px solid black
 }
