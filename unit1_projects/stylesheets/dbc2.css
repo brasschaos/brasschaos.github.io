@@ -24,20 +24,18 @@
 .sidebar
 {
 	float: right;
-	top: 20px;
+	text-align: center;
 	height: 700px;
 	width: 150px;
-	border: 3px solid blue;
-	border-radius: 5px;
+	border: 2px solid blue;
+	border-radius: 3px;
 }
 
 .content_area
 {	
 	background-color: grey;
 	margin: 4px;
-	vertical-align: center;
-	width: 500px;
-	height: 500px;
+	float: right;
 	top: 175px;
 	border: 3px solid black;
 	border-radius: 5px;
