@@ -1,6 +1,6 @@
 .header 
 {
-		position: absolute center;
+		float: top;
 		text-align: center;
 		top: 5px;
 		border: solid;
@@ -12,7 +12,7 @@
 
 .footer 
 {
-		position: absolute center;
+		float: bottom;
 		text-align: center;
 		bottom: 5px;
 		left: 20px;
@@ -26,6 +26,7 @@
 .sidebar
 {
 	position: absolute;
+	float: right;
 	text-align: right;
 	right: 5px;
 	top: 60px;
@@ -38,6 +39,7 @@
 
 .content_area
 {
+	float: center;
 	top: 75px;
 	text-align: center;
 	border: 3px solid black;
