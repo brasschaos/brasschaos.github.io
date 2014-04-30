@@ -24,8 +24,8 @@
 .sidebar
 {
 	position: absolute;
-	right: 4px;
-	top: 10px;
+	right: 5px;
+	top: 5px;
 	text-align: left;
 	height: 675px;
 	width: 150px;
@@ -35,9 +35,7 @@
 
 .content_area
 {	
-	top: 175px;
-	padding: 2px;
-	margin: 2px;
+
 }
 
 span {
