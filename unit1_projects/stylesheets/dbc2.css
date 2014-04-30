@@ -20,7 +20,7 @@
 	position: absolute;
 	text-align: center;
 	top: 75px;
-	right: 0;
+	right: 15px;
 	height: 675px;
 	width: 75px;
 
@@ -28,13 +28,22 @@
 
 .content_area
 {	
-	margin-left: 15px;
+	padding: 5px;
+	height: 50%;
+	background-color: white;
 	position: relative;
-	right: 5px;
-}
+	top: 20px;
+	width: 1190px;
+	height: 600px;
 
+}
+body {
+
+	background-color: black
+
+}
 div {
-	border: 3px solid black;
+	border: 3px solid cyan;
 	border-radius: 7px;
 	background-color: #cccccc;
 }
