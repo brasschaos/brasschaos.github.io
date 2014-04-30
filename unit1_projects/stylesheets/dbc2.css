@@ -3,12 +3,11 @@
 	float: top;
 	text-align: center;
 	top: 5px;
-	border: solid;
-	border-color: black;
 	width: 1300px;
 	height: 100px;
 	border: 5px solid black; 
-}
+	border-radius: 5px;
+	}
 
 .footer
 {
@@ -24,11 +23,8 @@
 
 .sidebar
 {
-	position: absolute;
 	float: right;
-	right: 15px;
 	top: 20px;
-    vertical-align: right;
 	height: 700px;
 	width: 150px;
 	border: 3px solid blue;
@@ -36,11 +32,18 @@
 }
 
 .content_area
-{
+{	
+	background-color: grey;
+	margin: 4px;
 	vertical-align: center;
 	width: 500px;
 	height: 500px;
 	top: 175px;
 	border: 3px solid black;
 	border-radius: 5px;
+}
+
+span {
+	font-family: trebuchet;
+	color: blue;
 }
