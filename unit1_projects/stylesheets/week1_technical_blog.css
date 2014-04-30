@@ -1,0 +1,30 @@
+#header {
+text-align: center;
+position: relative;
+top: 5px;
+background-color: black;
+color: orange;
+border: 2px solid grey ;
+border-radius: 4px;
+height: 15%;
+width: 90%;
+
+}
+
+
+#content_area {
+position: relative;
+margin: 1%;
+height: 80%;
+width: 75%;
+border: 2px solid black;
+border-radius: 7px;
+}
+
+
+
+p
+{
+
+	text-decoration: bold;
+}
