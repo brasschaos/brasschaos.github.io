@@ -40,6 +40,8 @@
 .content_area
 {
 	float: center;
+	width: 900px;
+	height: 700px;
 	top: 75px;
 	text-align: center;
 	border: 3px solid black;
