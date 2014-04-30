@@ -26,9 +26,8 @@
 {
 	position: absolute;
 	float: right;
-	text-align: right;
-	right: 5px;
-	top: 30px;
+	right: 15px;
+	top: 20px;
     vertical-align: right;
 	height: 600px;
 	width: 125px;
@@ -38,9 +37,9 @@
 
 .content_area
 {
-	
-	width: 900px;
-	height: 700px;
+	vertical-align: center;
+	width: 500px;
+	height: 500px;
 	top: 175px;
 	border: 3px solid black;
 	border-radius: 4px;
