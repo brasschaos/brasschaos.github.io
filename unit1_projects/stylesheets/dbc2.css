@@ -24,6 +24,8 @@
 .sidebar
 {
 	position: absolute;
+	right: 4px;
+	top: 110px;
 	text-align: center;
 	height: 700px;
 	width: 150px;
