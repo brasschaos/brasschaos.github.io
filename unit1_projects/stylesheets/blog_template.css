@@ -1,0 +1,43 @@
+#header
+ {
+
+ 	border: 3px solid grey;
+ 	background-image: url(http://2.bp.blogspot.com/-Xmo26BMqg5Q/UihlqVwTwgI/AAAAAAAAAv0/V-Rrgm0V6oo/s1600/Top%2010%20best%20Simple%20Awesome%20Background%20Images%20for%20Your%20Website%20or%20Blog3.jpg);
+	text-align: center;
+	position: relative;
+	top: 5px;
+	text-decoration: bold;
+	height: 15%;
+	width: 90%;
+
+}
+
+
+#content_area 
+
+{
+	font-family: verdana;
+	text-decoration: bold;
+	position: relative;
+	top: 2px;
+	margin: 1%;
+	height: 80%;
+	width: 75%;
+	
+
+}
+
+
+
+body 
+
+{
+	background-image: url(http://www.papermarc.com.au/images/mat-kk_parch_true_blue-lg.jpg);
+	background-color: #cccccc;
+
+}
+p
+{
+
+	text-decoration: bold;
+}
