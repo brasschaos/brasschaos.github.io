@@ -1,51 +1,55 @@
 .header 
 {
+	float: top;
+	margin: 5px;
 	position: relative;
 	text-align: center;
 	top: 5px;
-	width: 1200px;
+	width: 90%;
 	}
 
 .footer
 {
-	
-	position: absolute;
+	top: 5px;
+	margin: 5px;
+	position: relative;
 	text-align: center;
-	bottom: 5px;
-	width: 1200px;
+	float: bottom;
+	width: 90%;
 }
 
 .sidebar
 {
-	position: absolute;
+	position: fixed;
 	text-align: center;
-	top: 75px;
-	right: 15px;
-	height: 675px;
+	top: 10px;
+	bottom: 10px;
+	right: 10px;
+	height: 95%;
 	width: 75px;
 
 }
 
 .content_area
 {	
-	padding: 5px;
-	height: 50%;
-	background-color: white;
+	background-image: url(http://www.zingerbugimages.com/backgrounds/light_blue_parchment_paper_background_1800x1600.jpg);
 	position: relative;
-	top: 20px;
-	width: 1190px;
-	height: 600px;
+	top: 5px;
+	margin: 5px;
+	width: 90%;
+	max-height: 80%;
+	height: 700px;
 
 }
 body {
 
-	background-color: black
+	background-image: url(http://2.bp.blogspot.com/-Xmo26BMqg5Q/UihlqVwTwgI/AAAAAAAAAv0/V-Rrgm0V6oo/s1600/Top%2010%20best%20Simple%20Awesome%20Background%20Images%20for%20Your%20Website%20or%20Blog3.jpg);
 
 }
 div {
-	border: 3px solid cyan;
+	border: 3px solid #0ff;
 	border-radius: 7px;
-	background-color: #cccccc;
+	background-image: url(http://www.papermarc.com.au/images/mat-kk_parch_true_blue-lg.jpg);
 }
 
 span {
