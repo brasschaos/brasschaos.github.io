@@ -1,0 +1,24 @@
+
+div {
+
+	position: relative;
+	border: 2px solid black;
+	border-radius: 4px;
+}
+
+.menu_bar {
+
+	
+	float: left;
+	width: 15%;
+	height: 90%;
+
+	}
+
+.content_area {
+
+	width: 85%;
+	float: right;
+	
+
+}
