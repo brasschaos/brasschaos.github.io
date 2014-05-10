@@ -1,6 +1,7 @@
 
 div {
 
+	
 	position: relative;
 	border: 2px solid black;
 	border-radius: 4px;
@@ -17,7 +18,7 @@ div {
 
 .content_area {
 
-	width: 85%;
+	width: 80%;
 	float: right;
 	
 
