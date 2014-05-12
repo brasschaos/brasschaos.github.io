@@ -6,6 +6,8 @@
 	text-align: center;
 	position: relative;
 	top: 5px;
+	color: #0ff;
+	text-shadow: -3px 3px black;
 	text-decoration: bold;
 	height: 15%;
 	width: 90%;
