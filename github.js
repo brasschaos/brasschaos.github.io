@@ -4,12 +4,13 @@ $(document).ready(function(){
                              active: false,
                              header: "h5",
                              heightStyle: "content",
-                             animate: "easeInOutCubic",
+                             animate: "easeOutExpo",
                              event: "click",
                              icons: false
                           });
   $(".ui-accordion .ui-accordion-header").css(
-    { "padding":"0.15em",
+    {
+      "padding":"0.15em",
       "border-color":"cyan",
       "width":"5em",
       "background-color":"light-blue"

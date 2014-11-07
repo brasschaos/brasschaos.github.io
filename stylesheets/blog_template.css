@@ -1,6 +1,5 @@
 #header
  {
-
  	border: 3px solid grey;
  	background-image: url(http://2.bp.blogspot.com/_oalwC3a4OAg/TANDqFQsjbI/AAAAAAAABS8/kpBHJhXxceY/s1600/Blog_Background.jpg);
 	text-align: center;
@@ -11,14 +10,10 @@
 	text-decoration: bold;
 	height: 15%;
 	width: 90%;
-
 }
 
-
-#content_area 
-
+#content_area
 {
-	
 	font-family: verdana;
 	text-decoration: bold;
 	position: relative;
@@ -26,19 +21,15 @@
 	margin: 1%;
 	height: 80%;
 	width: 75%;
-	
-
 }
 
-
-
-body 
-
+body
 {
 	background-image: url(http://www.zingerbugimages.com/backgrounds/light_blue_parchment_paper_background_1800x1600.jpg);
 	background-color: #cccccc;
 
 }
+
 p
 {
 	text-decoration: bold;

@@ -42,6 +42,8 @@ body
 
 .blog_bar
 {
+	border: 1px solid white;
+	width:10.5em;
 	color: cyan;
 	font-family: arial;
 }
