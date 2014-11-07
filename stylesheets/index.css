@@ -42,23 +42,22 @@ body
 
 .blog_bar
 {
-	border: 1px solid white;
 	width:10.5em;
 	color: cyan;
 	font-family: arial;
 }
 
-#ui-id-1:hover, #ui-id-3:hover
+h5
 {
 	cursor: pointer;
 }
 
-.cultural a:hover
+.cultural .blog_links a:hover
 {
 	text-shadow: 0.25px -3px white;
 	color: #2eb82e;
 }
-.technical a:hover
+.technical .blog_links a:hover
 {
 	text-shadow: 0.25px -3px white;
 	color: #E65C00;
