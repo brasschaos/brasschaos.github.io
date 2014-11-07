@@ -1,13 +1,9 @@
 $(document).ready(function(){
-
   $('h5').on('click', function() {
    $(this).next('.blog_links').slideToggle( {easing: "easeOutQuint"} );
   });
 
 });
-
-
-
 
   // $('#blog_TOC').accordion({ collapsible: true,
   //                            active: false,
@@ -17,8 +13,6 @@ $(document).ready(function(){
   //                            event: "click",
   //                            icons: false
   //                         });
-
-
   // $(".ui-accordion .ui-accordion-header").css(
   //   {
   //     "padding":"0.15em",

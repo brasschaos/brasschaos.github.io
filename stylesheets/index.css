@@ -37,7 +37,7 @@ body
 {
 	color: white;
 	background-color: grey;
-	background-image:url(http://37.media.tumblr.com/tumblr_mdb22m7HTC1rzqsxoo1_500.jpg);
+	background-image:url("images/treesBG.jpg");
 }
 
 .blog_bar
