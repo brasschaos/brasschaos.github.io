@@ -10,20 +10,6 @@ a:visited
 	color: white;
 }
 
-a:hover
-{
-	text-shadow: 0px -5px cyan;
-	/*font-weight: bold;*/
-	color: cyan;
-}
-
-a:active
-{
-	text-shadow: 0px 1px aqua;
-	font-weight: bold;
-	color: cyan;
-}
-
 .blog_bar
 {
 	display: block;
@@ -54,11 +40,24 @@ body
 	background-image:url(http://37.media.tumblr.com/tumblr_mdb22m7HTC1rzqsxoo1_500.jpg);
 }
 
-.blog_bar {
+.blog_bar
+{
 	color: cyan;
 	font-family: arial;
 }
 
-#ui-id-1:hover, #ui-id-3:hover {
+#ui-id-1:hover, #ui-id-3:hover
+{
 	cursor: pointer;
 }
+
+.cultural a:hover
+{
+	text-shadow: 0.25px -3px white;
+	color: #2eb82e;
+}
+.technical a:hover
+{
+	text-shadow: 0.25px -3px white;
+	color: #E65C00;
+};
