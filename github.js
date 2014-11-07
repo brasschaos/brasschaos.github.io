@@ -3,6 +3,19 @@ $(document).ready(function(){
    $(this).next('.blog_links').slideToggle( {easing: "easeOutQuint"} );
   });
 
+//   $('.blog_links a').on('click', function(){
+//     this.preventDefault();
+//     var theLink = this.href
+//    var tryIt = $.ajax({
+//       url: 'blog_posts/'+theLink,
+//       context: document.body,
+//       data: response
+//     })
+//   });
+// tryIt.done(function(response){
+//   $('.content_area').html(response)
+// });
+
 });
 
   // $('#blog_TOC').accordion({ collapsible: true,
