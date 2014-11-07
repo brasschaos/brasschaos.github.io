@@ -9,6 +9,22 @@ a:visited
 	text-decoration: none;
 	color: white;
 }
+.cultural .blog_links a:hover
+{
+	color: #2eb82e;
+	text-shadow: 0.25px -3px white;
+}
+
+.technical .blog_links a:hover
+{
+	color: #E65C00;
+	text-shadow: 0.25px -3px white;
+}
+
+.cultural .blog_links a:active, .technical .blog_links a:active
+{
+	text-shadow: none;
+}
 
 .blog_bar
 {
@@ -50,15 +66,4 @@ body
 h5
 {
 	cursor: pointer;
-}
-
-.cultural .blog_links a:hover
-{
-	text-shadow: 0.25px -3px white;
-	color: #2eb82e;
-}
-.technical .blog_links a:hover
-{
-	text-shadow: 0.25px -3px white;
-	color: #E65C00;
 };
