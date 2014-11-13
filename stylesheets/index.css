@@ -49,11 +49,12 @@ div
 	display: inline;
 }
 
-
+.WIP{
+	color: cyan;
+}
 
 body
 {
-	color: white;
 	background-color: grey;
 	background-image:url("images/2treesBG.jpg");
 }
