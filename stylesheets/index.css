@@ -49,15 +49,13 @@ div
 	display: inline;
 }
 
-#body_background_picture {
-	background-image:url("images/rainy_forest_background_by_austriaangloalliance-d50xz2s.jpg");
 
-}
 
 body
 {
 	color: white;
 	background-color: grey;
+	background-image:url("images/2treesBG.jpg");
 }
 
 .blog_bar
