@@ -3,6 +3,10 @@ $(document).ready(function(){
    $(this).next('.blog_links').slideToggle( {easing: "easeOutQuint"} );
   });
 
+
+
+});
+
 //   $('.blog_links a').on('click', function(){
 //     this.preventDefault();
 //     var theLink = this.href
@@ -16,7 +20,6 @@ $(document).ready(function(){
 //   $('.content_area').html(response)
 // });
 
-});
 
   // $('#blog_TOC').accordion({ collapsible: true,
   //                            active: false,
