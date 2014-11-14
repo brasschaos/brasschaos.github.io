@@ -1,11 +1,17 @@
 $(document).ready(function(){
+
+  var i = 0;
+
   $('h5').on('click', function() {
    $(this).next('.blog_links').slideToggle( {easing: "easeOutQuint"} );
   });
 
 $('.tree-button').on('click', function() {
-  $('.bg-img').css("background-image", 'url("stylesheets/images/2treesBG.jpg")');
-});
+        i++;
+        if (i > 2){ i = 1; };
+        $('.bg-img').css('background-image',  'url(stylesheets/images/' + i + 'treesBG.jpg)');
+       //if (i === 13){ i = 1; };
+    });
 
 });
 
