@@ -3,7 +3,9 @@ $(document).ready(function(){
    $(this).next('.blog_links').slideToggle( {easing: "easeOutQuint"} );
   });
 
-
+$('.tree-button').on('click', function() {
+  $('.bg-img').css("background-image", 'url("stylesheets/images/2treesBG.jpg")');
+});
 
 });
 
