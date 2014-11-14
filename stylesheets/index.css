@@ -31,6 +31,9 @@ a:visited
 	display: block;
 	margin-left: 15px;
 	float: left;
+	width:10.5em;
+	color: cyan;
+	font-family: arial;
 }
 
 .content_area
@@ -49,20 +52,24 @@ div
 	display: inline;
 }
 
-
+.WIP{
+	font-weight: bold;
+	display: inline-block;
+	color: cyan;
+	margin: 10px;
+}
 
 body
 {
-	color: white;
 	background-color: grey;
-	background-image:url("images/2treesBG.jpg");
 }
 
-.blog_bar
-{
-	width:10.5em;
-	color: cyan;
-	font-family: arial;
+.bg-img {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	background-image:url("images/1treesBG.jpg");
 }
 
 h5
