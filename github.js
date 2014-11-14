@@ -1,6 +1,6 @@
 $(document).ready(function(){
-
-  var i = 0;
+  var i = 1;
+  // $('.bg-img').css('background-image', 'url(stylesheets/images' + i + 'treesBG.jpg');
 
   $('h5').on('click', function() {
    $(this).next('.blog_links').slideToggle( {easing: "easeOutQuint"} );
@@ -8,8 +8,12 @@ $(document).ready(function(){
 
 $('.tree-button').on('click', function() {
         i++;
-        if (i > 2){ i = 1; };
-        $('.bg-img').css('background-image',  'url(stylesheets/images/' + i + 'treesBG.jpg)');
+        if (i > 4){ i = 1; };
+        $('.bg-img').fadeOut('slow', function(){
+        $('.bg-img').css('background-image', 'url(stylesheets/images/' + i + 'treesBG.jpg)');
+       $('.bg-img').fadeIn('fast', function(){
+        });
+       });
        //if (i === 13){ i = 1; };
     });
 
