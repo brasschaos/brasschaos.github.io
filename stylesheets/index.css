@@ -11,12 +11,14 @@ a:visited
 }
 .cultural .blog_links a:hover
 {
+	text-decoration: none;
 	color: #2eb82e;
 	text-shadow: 0.25px -3px white;
 }
 
 .technical .blog_links a:hover
 {
+	text-decoration: none;
 	color: #E65C00;
 	text-shadow: 0.25px -3px white;
 }
