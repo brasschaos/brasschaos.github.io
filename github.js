@@ -6,9 +6,9 @@ $(document).ready(function(){
    $(this).next('.blog_links').slideToggle( {easing: "easeOutQuint"} );
   });
 
-$('.tree-button').on('click', function() {
+$('.tree-button').on('click', function(){
         i++;
-        if (i > 4){ i = 1; };
+        if (i > 3){ i = 1; };
         $('.bg-img').fadeOut('slow', function(){
         $('.bg-img').css('background-image', 'url(stylesheets/images/' + i + 'treesBG.jpg)');
        $('.bg-img').fadeIn('fast', function(){
