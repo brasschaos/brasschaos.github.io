@@ -55,6 +55,7 @@ div
 }
 
 .WIP{
+	float: right;
 	font-weight: bold;
 	display: inline-block;
 	color: cyan;
@@ -77,4 +78,18 @@ h5
 
 html {
 	background-color: black;
+}
+
+div.content_area{
+	display: inline-block;
+	float: right;
+}
+
+#clockid{
+	position: inline-block;
+	display: inline-block;
+	float: right;
+	border-radius: 50%;
+	background-color: white;
+	display: inline;
 }
