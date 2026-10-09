@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+  <div>
+    <p>
+# ===============================
+# Real-Time AI Network Traffic Monitoring in R
+# ===============================
+
+# Load required package
+library(ggplot2)
+
+# Set seed for reproducibility
+set.seed(123)
+
+# Function to calculate AI threshold
+calculate_threshold <- function(data) {
+  if(length(data) < 5) return(NA)
+  mean_val <- mean(data)
+  stdev_val <- sd(data)
+  return(mean_val + 2 * stdev_val)
+}
+
+# Initialize vectors
+traffic <- numeric()
+thresholds <- numeric()
+time <- numeric()
+
+# Open a new plotting window
+plot(0, type = "n", xlim = c(0, 50), ylim = c(0, 220),
+     xlab = "Time (seconds)", ylab = "Packets per second",
+     main = "Real-Time AI Network Traffic Monitoring")
+abline(h = 0, col = "gray")
+
+# Add legend
+legend("topright", legend = c("Traffic", "Threshold"), 
+       col = c("blue", "red"), lwd = 2, lty = c(1,2))
+
+# Real-time simulation over 50 seconds
+for (t in 1:50) {
+  
+  # Simulate normal or spike traffic
+  if (t > 20 & t < 40) {
+    packets <- sample(100:200, 1)  # spike traffic
+  } else {
+    packets <- sample(30:80, 1)    # normal traffic
+  }
+  
+  # Append to vectors
+  traffic <- c(traffic, packets)
+  time <- c(time, t)
+  
+  # Calculate threshold
+  threshold <- calculate_threshold(traffic)
+  thresholds <- c(thresholds, ifelse(is.na(threshold), packets, threshold))
+  
+  # Alert if packets exceed threshold
+  if (!is.na(threshold) && packets > threshold) {
+    message(paste0("⚠️ AI ALERT at second ", t, ": ", packets, " packets"))
+    flush.console()  # ensures message appears immediately
+  }
+  
+  # Update plot
+  lines(time, traffic, col = "blue", lwd = 2)
+  lines(time, thresholds, col = "red", lwd = 2, lty = 2)
+  
+  # Wait 1 second before next update
+  Sys.sleep(1)
+}
+  </p>
+  </div>
+  </body>
+  </html>
